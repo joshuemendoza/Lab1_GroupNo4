@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockup Prototype</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:medium&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    <script src="js/script1.js"></script>
+</head>
+<body style="background-color:#34421E">
+    <div class="welcome">	
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+        <center><h1>CREATE EVENT</h1></center></div>
+<table align="center"cellpadding = "5"> 
+
+<form name="display" onsubmit="displayData()">
+<tr>
+<td>Event Type:</td>
+
+<td>
+    <select class="EventType" name="EventType" id="EventType" required>
+    <option value="-1">Choose One</option>
+    <option value="Religious Event">Religious Event</option>
+    <option value="Team Event">Team Building</option>
+    <option value="Seminar">Seminar</option>
+    <option value="Field Trip">Field Trip</option>
+    <option value="Outreach Program">Outreach Program</option>
+    
+    </select>
+</td>
+<tr>
+<td>Event Title:</td>
+<td><input class="EventTitle" type="text" name="EventTitle" id="EventTitle"></td>
+</tr>
+
+<tr>
+<td>Event Dates:</td>
+<td><input class="EventDates" type="date" name="EventDates" id="EventDates" required>
+<td class="post">TO </td>
+<td><input class="PostingDate2" type="date" name="PostingDate2" id="PostingDate2" required></td>
+</tr>
+
+<tr>
+<td>Posting Date:</td>
+<td><input class="PostingDate" type="date" name="PostingDate" id="PostingDate" required>
+</tr>
+
+<td><br>
+<input type="checkbox" name="opt1" value="Home" id="opt1" />
+ Is Registration Required?<br><br>
+ <input type="checkbox" name="opt2" value="Home" id="opt2" />
+ Is this event associated with any Family Programs?<br><br>
+ <input type="checkbox" name="opt3" value="Home" id="opt3" />
+ Upon Registration Completion, Are Users to Receive an Auto Generated Email?<br><br>
+ <input type="checkbox" name="opt4" value="Home" id="opt4" />
+ Is There a Point of Contact?<br><br>
+ <input type="checkbox" name="opt5" value="Home" id="opt5"/>
+ Is there a Hosting Command Point of Contact?<br><br>
+</td>
+</tr>
+<br></br>
+<td colspan="2" align="center">
+
+<input class="button" type="submit" value="Save">
+<input class="button1" type="reset" id="Cancel">
+
+
+</td>
+</tr>
+</table>
+ 
+</form>
+</td>
+</tr>
+
+</body>
+</html>
